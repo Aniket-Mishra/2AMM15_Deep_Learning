@@ -3,6 +3,7 @@ import pandas as pd
 import torch 
 from torch.utils.data import Dataset
 from PIL import Image
+from torch.utils.data import DataLoader
 
 class FashionDataset(Dataset):
     def __init__(
